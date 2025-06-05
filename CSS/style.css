@@ -107,12 +107,13 @@ footer {
 }
 .help{
   display: flex;
-  
   justify-content: space-around;
+  padding: 10px;
 }
 
-
-
+.help a{
+  color: #6cb5ff;
+}
 
 /* Botão voltar ao topo */
 #topBtn {
@@ -151,5 +152,5 @@ body.dark-mode a {
 }
 
 body.dark-mode #topBtn {
-  background-color: #333;
+  background-color: #2075f3;
 }
