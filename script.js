@@ -6,5 +6,8 @@
     };
     topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
-
-    oi
+     const toggleTheme = document.getElementById("toggleTheme");
+    toggleTheme.onclick = () => {
+      document.body.classList.toggle("dark-mode");
+      toggleTheme.textContent = document.body.classList.contains("dark-mode") ? "☀️ Modo Claro" : "🌙 Modo Escuro";
+    };
